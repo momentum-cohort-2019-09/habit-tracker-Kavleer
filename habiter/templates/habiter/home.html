@@ -1,0 +1,11 @@
+{% extends base.html %}
+
+{% block content %}
+
+{% for habit in habits %}
+  habit.title
+  habit.target
+  habit.measure
+  habit.is_achieved
+
+{% endblock %}
